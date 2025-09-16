@@ -102,6 +102,7 @@ body{
 
 header{
     position: fixed;
+    z-index: 5;
     background-color: var(--header-bcg);
     color: white;
     margin-bottom:4.5rem;
@@ -124,6 +125,8 @@ header{
         translate: -50%;
     }
 }
+
+/*Main*/
 
 main{
     .products{
@@ -166,5 +169,48 @@ main{
     span{
         font-size: 0.7rem;
     }
-
+    
+    .levis-fit{
+    background-image: url(../img/1b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
+    .guess{
+    background-image: url(../img/2b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
+    .zucchero{
+    background-image: url(../img/3b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
+    .levis{
+    background-image: url(../img/4b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
+    .maya{
+    background-image: url(../img/5b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
+    .esprit{
+    background-image: url(../img/6b.webp);
+    background-size: contain;
+    img:hover{
+        opacity: 0;
+    }
+    }
 }
+
