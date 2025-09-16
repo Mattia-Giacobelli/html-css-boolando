@@ -131,6 +131,7 @@ header{
 main{
     .products{
         padding-top: 50px;
+        padding-bottom: 50px;
         justify-content: space-between;
         flex-wrap: wrap;
     }
@@ -169,7 +170,6 @@ main{
     span{
         font-size: 0.7rem;
     }
-    
     .levis-fit{
     background-image: url(../img/1b.webp);
     background-size: contain;
@@ -212,5 +212,16 @@ main{
         opacity: 0;
     }
     }
+}
+    
+/*Footer*/
+
+footer{
+    background-color: var(--footer-bcg);
+    color: white;
+    line-height: 1.5rem;
+    .container{
+        padding: 30px;
+    };
 }
 
