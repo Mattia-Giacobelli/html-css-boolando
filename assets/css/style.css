@@ -1,0 +1,105 @@
+/* #Region Debug*/
+
+.debug{
+    header{
+        background-color: red;
+        div{
+            background-color: #008000;
+        }
+        nav{
+            background-color: yellow;
+        }
+    }
+
+    main{
+        background-color: #ff6900;
+        .container{
+            background-color: #008000;
+            height: 1200px;
+        }
+        .card{
+            background-color: brown;
+            height: 500px;
+            width: 350px;
+        }
+    }
+
+    footer{
+        background-color: purple;
+        .container{
+            background-color: aqua;
+            height: 100px;
+        }
+        .info,.social{
+            background-color: violet;
+            height: 50px;
+            width: 300px;
+        }
+    }
+}
+
+
+
+/* #Region Common*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+} 
+
+:root{
+    --header-bcg: #ff6900;
+    --logo-color: #e7e5e4;
+    --sale-color: #ff0000;
+    --sustainable-color: #008000;
+    --footer-bcg: #1a1a1a;
+}
+
+/*Utilities*/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*flex*/
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/*typography*/
+
+.list-unstyle{
+    list-style: none;
+}
+
+/*Header*/
+
+header{
+    img{
+        max-width: 20%;
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+}
+
+main{
+    .products{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
