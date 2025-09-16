@@ -70,6 +70,7 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
 /*flex*/
 
 .d-flex{
@@ -89,12 +90,22 @@ body{
     list-style: none;
 }
 
+.sale{
+    color: var(--sale-color);
+}
+
+.or-price{
+    text-decoration: line-through;
+}
+
 /*Header*/
 
 header{
+    position: fixed;
     background-color: var(--header-bcg);
     color: white;
     margin-bottom:4.5rem;
+    width: 100%;
 
     &>div{
         padding-top: 10px;
@@ -116,11 +127,44 @@ header{
 
 main{
     .products{
+        padding-top: 50px;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .card img{
-        height: 50%;
+    .card{
+        padding-top: 3rem;
+        width: 30%;
+        flex-direction: column;
+        position: relative;
+        .heart{
+            padding: 0.7rem;
+            background-color: white;
+            position: absolute;
+            top: 60px;
+            right: 0px;
+        }
+        .on-sale{
+            padding: 0.2rem 0.5rem;
+            color: white;
+            background-color: var(--sale-color);
+            position: absolute;
+            bottom: 90px;
+            left: 0px;
+        }
+        .sustainable{
+            padding: 0.2rem 0.5rem;
+            color: white;
+            background-color: var(--sustainable-color);
+            position: absolute;
+            bottom: 90px;
+            left: 0px;
+        }
+        .double{
+            left: 45px;
+        }
+    }
+    span{
+        font-size: 0.7rem;
     }
 
 }
