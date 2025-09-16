@@ -92,7 +92,7 @@ header{
     flex-direction: column;
     align-items: center;
     .levis-fit{
-        width: 50%;;
+        width: 50%;
     }
     .heart{
         font-size: 1.5rem;
@@ -100,11 +100,12 @@ header{
         background-color: white;
         position: absolute;
         top: 130px;
-        right: 690px;
+        right: 200px;
         &:hover{
             color: var(--sale-color);
         }
     }
+    
     
 }
 
