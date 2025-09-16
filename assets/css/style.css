@@ -146,6 +146,9 @@ main{
             position: absolute;
             top: 60px;
             right: 0px;
+            &:hover{
+                color: var(--sale-color);
+            }
         }
         .on-sale{
             padding: 0.2rem 0.5rem;
@@ -170,6 +173,10 @@ main{
     span{
         font-size: 0.7rem;
     }
+}
+
+/*Hover images*/
+.card{
     .levis-fit{
     background-image: url(../img/1b.webp);
     background-size: contain;
@@ -213,7 +220,6 @@ main{
     }
     }
 }
-    
 /*Footer*/
 
 footer{
