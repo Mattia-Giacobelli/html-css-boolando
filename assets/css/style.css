@@ -60,6 +60,10 @@ img{
     --footer-bcg: #1a1a1a;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /*Utilities*/
 
 .container{
@@ -88,6 +92,20 @@ img{
 /*Header*/
 
 header{
+    background-color: var(--header-bcg);
+    color: white;
+    margin-bottom:4.5rem;
+
+    &>div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    li{
+       padding: 3px;
+       font-size: 0.7rem;
+    }
+
     img{
         max-width: 20%;
         position: relative;
@@ -98,8 +116,11 @@ header{
 
 main{
     .products{
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
+    }
+    .card img{
+        height: 50%;
     }
 
 }
